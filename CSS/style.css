@@ -102,8 +102,6 @@ footer {
 }
 
 /* Адаптивные стили */
-
-
 @media (max-width: 600px) {
     .nav-links {
         flex-direction: column;
@@ -120,7 +118,7 @@ footer {
     }
 
     .menu-toggle {
-        display: block;
+        display: block; /* Убедитесь, что кнопка отображается */
     }
 }
 

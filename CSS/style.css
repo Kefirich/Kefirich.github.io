@@ -130,7 +130,7 @@ footer {
     }
 
     .menu-toggle {
-        margin-right: 20px;
+        margin-right: 15px;
         display: block;
         cursor: pointer;
         font-size: 1em;
@@ -139,6 +139,10 @@ footer {
         border: none;
         padding: 10px;
         border-radius: 5px;
+    }
+    
+    header {
+        width: 100%;
     }
 }
 

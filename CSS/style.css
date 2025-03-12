@@ -30,6 +30,10 @@ h2 {
     color: #4a90e2;
 }
 
+.custom-h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 /* Стили для параграфов */
 p {
     font-size: 18px;

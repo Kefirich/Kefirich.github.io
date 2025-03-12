@@ -1,3 +1,8 @@
+.custom-h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /* Основные стили */
 body {
     font-family: 'Arial', sans-serif;
@@ -28,12 +33,9 @@ main {
 h2 {
     font-weight: bold;
     color: #4a90e2;
+    padding: 0px 0px 0px 0px;
 }
 
-.custom-h2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
 /* Стили для параграфов */
 p {
     font-size: 18px;
@@ -122,17 +124,14 @@ footer {
         background-color: #333;
         display: none;
     }
-    
-    header {
-        width: 100%
-    }
-    
+
     .nav-links.show {
         display: flex;
     }
 
     .menu-toggle {
-        display: block;    
+        margin-right: 20px;
+        display: block;
         cursor: pointer;
         font-size: 1em;
         background-color: #4a90e2;
@@ -140,9 +139,8 @@ footer {
         border: none;
         padding: 10px;
         border-radius: 5px;
-        
     }
-    }
+}
 
 /* Резюме */
 .resume section, #bio {

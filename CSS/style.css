@@ -116,7 +116,7 @@ footer {
     }
     
     header {
-        padding: 0px;
+        width: 100%
     }
     
     .nav-links.show {

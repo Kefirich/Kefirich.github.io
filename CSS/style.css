@@ -114,7 +114,11 @@ footer {
         background-color: #333;
         display: none;
     }
-
+    
+    header {
+        padding: 0px;
+    }
+    
     .nav-links.show {
         display: flex;
     }
